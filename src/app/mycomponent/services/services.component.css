@@ -1,0 +1,294 @@
+.service_icons{
+	margin:100px auto;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid rgb(168, 4, 39);
+	position: relative;
+}
+.service_icons:before{
+	content:'';
+	border: 1px solid rgb(168, 4, 39);
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid rgb(168, 4, 39);
+	width:0;
+	height:0;
+	position: absolute;
+	top:100px;
+	left:-50px;
+}
+
+.interior{
+	position: relative;
+	top:-250px;
+	left:300px;
+}
+
+.box {
+	position: relative;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+	height: 280px;
+	width: 280px;
+	/*cursor: pointer;*/
+	background: #d2d3d642;
+	/*border: 2px solid #0075b2;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	/*transition: all 0.7s cubic-bezier(0.22, 0.61, 0.36, 1);*/
+	transform: rotate(45deg);
+	/*margin-top: -70px;*/
+	z-index: 2;
+	/*margin:100px auto;*/
+    top:100px;
+	left:290px;
+  }
+.img-Home{
+	transform: rotate(-45deg);
+	margin:19px;
+  }
+.plugframe{
+	position: relative;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	height: 90px;
+	width: 90px;
+	background: #d2d3d642;
+	/*border: 2px solid #970026;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	transform: rotate(45deg);
+	top:22px;
+	right:200px;
+	border-radius: 8px;
+	/*margin:-100px auto;*/
+	}
+
+.img-plugoff{
+	width: 70px;
+	transform: rotate(-45deg);
+	margin:12px;
+}
+
+.lightingyellowframe{
+	position: relative;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	transform: rotate(45deg);
+	height: 90px;
+	width: 90px;
+	background: #d2d3d642;
+	/*border: 2px solid #970026;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	transform: rotate(45deg);
+	top:3px;
+	right:130px;
+	border-radius: 8px;
+}
+.img-lightingyellow{
+	transform: rotate(-45deg);
+	width: 70px;
+	margin:12px;
+}
+
+.jalousieframe{
+	position: relative;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	transform: rotate(45deg);
+	height: 90px;
+	width: 90px;
+	background: #d2d3d642;
+	/*border: 2px solid #970026;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	transform: rotate(45deg);
+	right:200px;
+	top:-15px;
+	border-radius: 8px;
+	z-index: 2;
+}
+.img-jalousie{
+	transform: rotate(-45deg);
+	width: 70px;
+	margin: 8px;
+	/*margin:50px auto;
+	top:40px;
+	right:285px;*/
+	
+}
+.house_warmframe{
+	position: relative;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	transform: rotate(45deg);
+	height: 90px;
+	width: 90px;
+	background: #d2d3d642;
+	/*border: 2px solid #970026;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	transform: rotate(45deg);
+	right:195px;
+	top:-50px;
+	border-radius: 8px;
+}
+.img-house_warm{
+	transform: rotate(-45deg);
+	width: 70px;
+	margin: 8px;
+	/*top: 190px;
+	right:425px;
+	width: 70px;*/
+}
+.house_coldframe{
+	position: relative;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	transform: rotate(45deg);
+	height: 90px;
+	width: 90px;
+	background: #d2d3d642;
+	/*border: 2px solid #970026;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	transform: rotate(45deg);
+	right:125px;
+	top:-30px;
+	border-radius: 8px;
+}
+.img-house_cold{
+	transform: rotate(-45deg);
+	width: 70px;
+	margin:8px;
+	/*top: 110px;
+	right:245px;
+	width: 70px;*/
+}
+
+.exterior{
+	position: relative;
+	top:-570px;
+	right:-630px;
+}
+.surveillance-video-cameraframe{
+	position: relative;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	transform: rotate(45deg);
+	height: 90px;
+	width: 90px;
+	background: #d2d3d642;
+	/*border: 2px solid #970026;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	transform: rotate(45deg);
+	right:-40px;
+	top:-110px;
+	border-radius: 8px;
+}
+.img-surveillance-video-camera{
+	transform: rotate(-45deg);
+	width: 70px;
+	margin:5px;
+	/*width: 80px;
+	bottom: 100px;
+	left:100px;*/
+}
+
+.sirenframe{
+	position: relative;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	transform: rotate(45deg);
+	height: 90px;
+	width: 90px;
+	background: #d2d3d642;
+	/*border: 2px solid #970026;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	transform: rotate(45deg);
+	right: 30px;
+	top:-130px;
+	border-radius: 8px;
+}
+.img-siren{
+	transform: rotate(-45deg);
+	width: 68px;
+	margin:8px;
+	/*bottom: 30px;
+	right: 100px;*/
+}
+
+.padlockframe{
+	position: relative;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	transform: rotate(45deg);
+	height: 90px;
+	width: 90px;
+	background: #d2d3d642;
+	/*border: 2px solid #970026;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	right:-40px;
+	top:-147px;
+	border-radius: 8px;
+}
+.img-padlock{
+	transform: rotate(-45deg);
+	width: 70px;
+	margin:8px;
+	/*top:40px;
+	width: 70px;
+	right:50px;*/
+}
+.garageframe{
+	position: relative;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	transform: rotate(45deg);
+	height: 90px;
+	width: 90px;
+	background: #d2d3d642;
+	/*border: 2px solid #970026;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	right:30px;
+	top:-165px;
+	border-radius: 8px;
+}
+.img-garage{
+	transform: rotate(-45deg);
+	width: 75px;
+	margin:8px;
+	/*top: 110px;
+	right: 240px;*/
+}
+
+.intercomframe{
+	position: relative;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	transform: rotate(45deg);
+	height: 90px;
+	width: 90px;
+	background: #d2d3d642;
+	/*border: 2px solid #970026;*/
+	box-shadow: 1px 4px 1px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	right:-40px;
+	top:-185px;
+	border-radius: 8px;
+}
+.img-intercom{
+	transform: rotate(-45deg);
+	width: 70px;
+	margin:8px;
+	/*top: 190px;
+	right:195px;*/
+}
+

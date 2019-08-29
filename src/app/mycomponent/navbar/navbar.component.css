@@ -1,0 +1,28 @@
+.logo img {
+    height: 45px;
+    width: 222px;
+}
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  navbar-nav {
+    width : 30%
+    }
+#taille_search
+{
+    margin-left: 15px;
+    margin-top: 9px;
+}
+.nav-item {
+    padding-right: 50px;
+}
+.navbar-brand{
+    padding-right: 50px;
+}
+.navbar{
+    width : 1000px;
+}
